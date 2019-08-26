@@ -21,7 +21,7 @@ This is the UI repository meant for Dom, for the Build Week project, Weight-Lift
 
 - Content uses CSS animations: could be for navbar, buttons, info content
 
--
+-User can toggle through landing background images.
 
 # 2. About Page: 
 
