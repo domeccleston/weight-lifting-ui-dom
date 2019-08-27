@@ -143,6 +143,7 @@ nav {
     width: 40%;
     background: #ff5b7b;
     border: none;
+    border-radius: 0.5em;
     color: white;
     font-size: 1em;
     font-weight: bold;
