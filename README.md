@@ -11,7 +11,7 @@ This is the UI repository meant for Dom, for the Build Week project, Weight-Lift
 
 - User can scroll to view information about the app's key features.
 
-- Landing page is reponsive.
+- Landing page is responsive.
 
 ## Stretch:
 

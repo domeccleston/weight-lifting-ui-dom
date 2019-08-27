@@ -65,7 +65,7 @@ body, html {
 nav {
     display: flex;
     justify-content: space-between;
-    background: #333333;
+    background: #35373B;
     color: white;
     position: sticky;
     top: 0;
@@ -96,6 +96,10 @@ nav {
     padding-left: 1em;
     text-decoration: none;
     color: white;
+}
+
+.nav-link:hover {
+    color: #ff5b7b;
 }
 
 /* landing page styling */
@@ -136,12 +140,17 @@ nav {
 
 .btn {
     padding: 1em;
-    width: 30%;
-    background: #f46270;
+    width: 40%;
+    background: #ff5b7b;
     border: none;
     color: white;
     font-size: 1em;
     font-weight: bold;
+}
+
+.btn:hover {
+    background: #F3BE70;
+    color: #333333;
 }
 
 .mobile-content {
@@ -166,9 +175,6 @@ nav {
     justify-content: center;
 }
 
-.phone-img {
-}
-
 .info-container {
     display: flex;
     align-items: center;
@@ -185,7 +191,7 @@ nav {
 }
 
 .features-bg-container {
-    background: #333333;
+    background: #35373B;
     height: 75%;
     display: flex;
     justify-content: center;
@@ -196,10 +202,57 @@ nav {
     display: flex;
     flex-direction: column;
     color: white;
+    padding: 0 1em 0 1em;
     justify-content: center;
     align-items: center;
+    font-size: 1.5em;
 }
 
-.features-info-box h4{
+.features-info-box h4 {
     padding: 2em 0 2em 0;
+    text-align: center;
+}
+
+.features-info-box p {
+    text-align: center;
+} 
+
+.quote-container {  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+    color: #35373B;
+    height: 25%;
+}
+
+
+
+footer {
+    background: #35373B;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright-container {
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 0.5em 1em 0.5em 1em;
+}
+
+.socials-container {
+    display: flex;
+    color: white;
+    padding: 0.5em 1em 0.5em 1em;
+}
+
+.socials-container i {
+    padding: 0 0.25em 0 0.25em;
+}
+
+.socials-container i:hover {
+    color: #ff5b7b
 }
