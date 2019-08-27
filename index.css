@@ -106,7 +106,7 @@ nav {
 
 .bg {
     background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('background-1.jpeg');
-    height: 100vh;
+    height: 110vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -115,7 +115,9 @@ nav {
 
 .landing-main {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .main-heading-container {
@@ -240,18 +242,16 @@ footer {
 .copyright-container {
     display: flex;
     align-items: center;
+    text-align: center;
     color: white;
     padding: 0.5em 1em 0.5em 1em;
 }
 
 .socials-container {
     display: flex;
+    align-items: center;
     color: white;
     padding: 0.5em 1em 0.5em 1em;
-}
-
-.socials-container i {
-    padding: 0 0.25em 0 0.25em;
 }
 
 .socials-container i:hover {
