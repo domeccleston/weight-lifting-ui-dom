@@ -180,4 +180,18 @@ nav {
 
 .features-container {
     height: 100vh;
+    display: flex%
+    width: 100%;
+}
+
+.features-bg-container {
+    background: #333333;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+}
+
+.features-info-box {
+    width: 20%;
+    border: 2px solid white;
 }
