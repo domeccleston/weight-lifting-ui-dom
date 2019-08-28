@@ -143,8 +143,12 @@ h4 a {
     color: black;
 }
 
+h4 i {
+    color: #ff5b7b;
+}
+
 h4 a:hover {
-    color: red;
+    color: #bc3534;
 }
 
 /* Cards Section */

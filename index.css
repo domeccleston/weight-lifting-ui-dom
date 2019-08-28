@@ -157,6 +157,20 @@ nav {
     font-weight: bold;
 }
 
+.btn-top {
+    width: 50%;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn a:hover {
+    color: #333333;
+}
+
+
 .btn:focus {
     outline: none;
 }
