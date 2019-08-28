@@ -69,8 +69,7 @@ nav {
     color: white;
     position: sticky;
     top: 0;
-    padding: 0.5em 1em 0.5em 1em;
-    font-weight: bold;
+    padding: 0.25em 1em 0.25em 1em;
 }
 
 .navbar-left {
@@ -79,12 +78,13 @@ nav {
 }
 
 .logo {
-    width: 100%;
-    height: 100%;
+    width: 70%;
+    height: 70%;
 }
 
 .nav-title {
     padding-left: 1em;
+    font-weight: bold;
 }
 
 .navbar-right {
@@ -106,11 +106,17 @@ nav {
 
 .bg {
     background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('background-1.jpeg');
-    height: 120vh;
+    height: 100vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+@media only screen and (max-width: 500px) {
+    .bg {
+        height: 100vh;
+    }
 }
 
 .landing-main {
@@ -147,7 +153,7 @@ nav {
     border: none;
     border-radius: 0.5em;
     color: white;
-    font-size: 1em;
+    font-size: 1rem;
     font-weight: bold;
 }
 
@@ -163,17 +169,42 @@ nav {
 }
 
 .mobile-content {
-    height: 125vh;
+    height: 150vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-evenly
 }
 
 .mobile-top {
     display: flex;
+    padding: 1em;
     justify-content: center;
     text-align: center;
     align-items: center;
+}
+
+.mobile-bottom {
+    height: 60%;
+    display: flex;
+    align-items: center;
+}
+
+.mb-left {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.mb-right {
+    height: 100%;
+    width: 50%;
+    background: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .mobile-top h1 {
@@ -182,7 +213,24 @@ nav {
 
 .phone-img-container {
     display: flex;
-    justify-content: space-evenly;
+}
+
+.phone-img {
+    max-height: 100%;
+}
+
+
+@media only screen and (max-width: 500px) {
+    .phone-img {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+    .mobile-top h1{
+        font-size: 1.5em;
+    }
 }
 
 
@@ -242,7 +290,40 @@ nav {
     font-weight: bold;
     font-size: 2em;
     color: #35373B;
-    height: 25%;
+    height: 28%;
+}
+
+.quote-container h4 {
+    padding-bottom: 0.4em;
+}
+
+@media only screen and (max-width: 500px) {
+    .quote-container h4 {
+        font-size: 0.75em;
+    }
+}
+
+.btn-bottom {
+    background: #ff5b7b;
+    border: none;
+    border-radius: 0.5em;
+    color: white;
+    font-size: 1rem;  
+    padding: 1em 4em 1em 4em;
+    font-weight: bold;
+}
+
+
+@media only screen and (max-width: 500px) {
+    .btn-bottom {
+        
+    }
+}
+
+
+.btn-bottom:hover {
+    background: #F3BE70;
+    color: #333333;
 }
 
 
