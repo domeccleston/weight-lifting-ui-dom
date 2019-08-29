@@ -191,7 +191,6 @@ nav {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    background: red;
 }
 
 }
@@ -201,22 +200,21 @@ nav {
     justify-content: center;
     text-align: center;
     align-items: center;
-    background: green;
 }
 
 .mobile-bottom {
     height: 60%;
     display: flex;
     align-items: center;
-    background: blue;
 }
+
+
 
 .mb-left {
     height: 100%;
     width: 50%;
     display: flex;
     justify-content: center;
-    background: purple;
 }
 
 .mb-right {
@@ -228,7 +226,6 @@ nav {
     text-align: center;
     align-items: center;
     flex-direction: column;
-    background: salmon;
 }
 
 .mb-right h4 {
@@ -257,9 +254,30 @@ nav {
 
 
 @media only screen and (max-width: 500px) {
-    .mb-left {
-        display: none;
+
+    .mobile-content {
+        height: 100%;
+        padding-top: 2em;
     }
+
+    .mobile-top {
+        height: 100%;
+
+    }
+
+    .mobile-top h1{
+        font-size: 1.5em;
+    }
+
+    .mobile-bottom {
+        flex-direction: column;
+        padding: 1em;
+    }
+
+    .mobile-bottom h4, p {
+        padding: 0.5em;
+    }
+
 
     .mb-right {
         width: 100%;
@@ -267,12 +285,6 @@ nav {
 
 }
 
-
-@media only screen and (max-width: 500px) {
-    .mobile-top h1{
-        font-size: 1.5em;
-    }
-}
 
 
 .features-container {
