@@ -161,9 +161,15 @@ nav {
     width: 50%;
 }
 
+.btn-middle {
+    width: 100%;
+    padding: 1em 5em 1em 5em
+}
+
 .btn a {
     text-decoration: none;
     color: white;
+    display: flex;
 }
 
 .btn a:hover {
@@ -184,6 +190,7 @@ nav {
 .btn:hover {
     background: #F3BE70;
     color: #333333;
+    cursor: pointer;
 }
 
 .mobile-content {
@@ -366,6 +373,7 @@ nav {
 .btn-bottom:hover {
     background: #F3BE70;
     color: #333333;
+    cursor: pointer;
 }
 
 
