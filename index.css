@@ -147,8 +147,8 @@ nav {
 }
 
 
-.btn {
-    padding: 1em 5em 1em 5em;
+.btn-top {
+    padding: 1em 4em 1em 4em;
     width: 100%;
     background: #ff5b7b;
     border: none;
@@ -160,34 +160,24 @@ nav {
 
 
 .btn-middle {
+    padding: 1em 5em 1em 5em;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    padding: 1em 5em 1em 5em
-}
-
-
-
-.btn a {
-    text-decoration: none;
+    background: #ff5b7b;
+    border: none;
+    border-radius: 0.5em;
     color: white;
-    display: flex;
+    font-size: 1rem;
+    font-weight: bold;
 }
 
-.btn a:hover {
-    color: #333333;
+.mb-right * {
+    text-decoration: none;
 }
-
 
 .btn:focus {
     outline: none;
 }
 
-@media only screen and (max-width: 500px) {
-    .btn {
-        width: 100%;
-    }
-}
 
 .btn:hover {
     background: #F3BE70 ;
@@ -243,14 +233,15 @@ nav {
 
 .mb-right h4 {
     font-size: 2em;
-    padding-bottom: 0.5em;
 }
 
 .mb-right p {
-    padding-bottom: 1em;
     font-size: 1.1rem;
 }
 
+.mb-right a {
+    display: flex;
+}
 
 .mobile-top h1 {
     font-size: 2.5em;
@@ -274,10 +265,6 @@ nav {
         width: 100%;
     }
 
-    .mb-right .btn {
-        width: 50%;
-
-    }
 }
 
 
