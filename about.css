@@ -121,11 +121,6 @@ rgb(245,245,245);
     padding-bottom: 5em;
 }
 
-@media only screen and (max-width: 500px) {
-    .about-main {
-        height: 800vh;
-    }
-}
 
 .main-heading {
     font-size: 3rem;
@@ -193,8 +188,13 @@ h4 a:hover {
     padding-bottom: 0.5em;
 }
 
+/* about media query: */
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 750px) {
+
+    .about-main {
+        height: 100%;
+    }
     .card {
         width: 70%;
         margin: 1em;
