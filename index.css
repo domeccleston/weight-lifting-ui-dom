@@ -146,9 +146,10 @@ nav {
     padding-bottom: 1em;
 }
 
+
 .btn {
-    padding: 1em;
-    width: 40%;
+    padding: 1em 5em 1em 5em;
+    width: 100%;
     background: #ff5b7b;
     border: none;
     border-radius: 0.5em;
@@ -157,14 +158,15 @@ nav {
     font-weight: bold;
 }
 
-.btn-top {
-    width: 50%;
-}
 
 .btn-middle {
     width: 100%;
+    display: flex;
+    justify-content: center;
     padding: 1em 5em 1em 5em
 }
+
+
 
 .btn a {
     text-decoration: none;
@@ -188,16 +190,20 @@ nav {
 }
 
 .btn:hover {
-    background: #F3BE70;
+    background: #F3BE70 ;
     color: #333333;
     cursor: pointer;
 }
 
 .mobile-content {
-    height: 120vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly
+    justify-content: space-evenly;
+    align-items: center;
+    background: red;
+}
+
 }
 
 .mobile-top {
@@ -205,12 +211,14 @@ nav {
     justify-content: center;
     text-align: center;
     align-items: center;
+    background: green;
 }
 
 .mobile-bottom {
     height: 60%;
     display: flex;
     align-items: center;
+    background: blue;
 }
 
 .mb-left {
@@ -218,6 +226,7 @@ nav {
     width: 50%;
     display: flex;
     justify-content: center;
+    background: purple;
 }
 
 .mb-right {
@@ -229,15 +238,17 @@ nav {
     text-align: center;
     align-items: center;
     flex-direction: column;
+    background: salmon;
 }
 
 .mb-right h4 {
     font-size: 2em;
-    padding-bottom: 1em;
+    padding-bottom: 0.5em;
 }
 
 .mb-right p {
     padding-bottom: 1em;
+    font-size: 1.1rem;
 }
 
 
