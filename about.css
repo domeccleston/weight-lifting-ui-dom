@@ -195,8 +195,6 @@ nav {
   text-align: center;
   color: black;
   padding-bottom: 5em;
-  padding-left: 1em;
-  padding-right: 1em;
 }
 
 .main-heading {
@@ -208,6 +206,7 @@ nav {
 .main-subheading {
   font-size: 1.5rem;
   padding-bottom: 1.5em;
+  width: 80%;
 }
 
 h4 a {
