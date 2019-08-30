@@ -152,6 +152,7 @@ nav {
   position: sticky;
   top: 0;
   padding: 0.25em 1em 0.25em 1em;
+  z-index: 1;
 }
 
 .navbar-left {
@@ -246,6 +247,7 @@ h4 a:hover {
 
 .card:hover {
   transform: scale(1.02);
+  z-index: 0;
 }
 
 .image-container {
