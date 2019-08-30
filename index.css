@@ -105,7 +105,7 @@ nav {
 /* LANDING PAGE STYLING --------------------------------------------------------------------------------------------------------- */
 
 .bg {
-    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('background-1.jpeg');
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('Assets/background-1.jpeg');
     height: 100vh;
     background-attachment: fixed;
     background-position: center;
