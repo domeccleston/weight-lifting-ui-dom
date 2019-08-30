@@ -302,8 +302,13 @@ nav {
         padding: 1em;
     }
 
-    .mobile-bottom h4, p {
-        padding: 0.5em;
+    .mobile-bottom h4 {
+        padding-top: 0.5em;
+        padding-bottom: 0.75em;
+    }
+
+    .mobile-bottom p {
+        padding-bottom: 1em;
     }
 
 
@@ -334,7 +339,7 @@ nav {
     color: white;
     justify-content: center;
     align-items: center;
-    padding-bottom: 1em;
+    padding-bottom: 1em; 
     font-size: 1.5em;
 }
 
@@ -394,7 +399,7 @@ nav {
     }
 
     .features-info-box {
-        width: 30%;
+        width: 70%;
     }
     
 }
