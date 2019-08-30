@@ -55,7 +55,7 @@ html {
     box-sizing: border-box;
 }
 
-/* navigation styling */
+/* NAVIGATION STYLING----------------------------------------------------------------------------------------------------------------- */
 
 body, html {
     font-family: 'Source Sans Pro', sans-serif;
@@ -102,12 +102,7 @@ nav {
     color: #ff5b7b;
 }
 
-/* main styling: */
-
-/*color
-rgb(245,245,245);
-*/
-
+/* MAIN STYLING -------------------------------------------------------------------------------------------------------------------- */
 
 .about-main {
     height: 100vh;
@@ -146,7 +141,7 @@ h4 a:hover {
     color: #bc3534;
 }
 
-/* Cards Section */
+/* CARDS SECTION STYLING ------------------------------------------------------------------------------------------------------------ */
 
 
 .cards-container {
@@ -192,7 +187,7 @@ h4 a:hover {
     padding-bottom: 0.5em;
 }
 
-/* about media query: */
+/* main media query: -----------------------------------------------------------------------------------------------------------------*/
 
 @media only screen and (max-width: 750px) {
 
@@ -205,7 +200,7 @@ h4 a:hover {
     }
 }
 
-/* Footer Styling */
+/* FOOTER STYLING --------------------------------------------------------------------------------------------------------------------- */
 
 footer {
     background: #35373B;
