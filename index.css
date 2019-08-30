@@ -123,20 +123,21 @@ nav {
     display: flex;
     flex-direction: column;
     color: white;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     text-align: center;
     width: 40%;
+    margin-bottom: 3em;
 }
 
 .main-heading-container h1 {
     font-size: 3em;
-    padding-bottom: 0.3em;
+    padding-bottom: 0.5em;
 }
 
 .main-heading-container h3 {
     font-size: 2em;
-    padding-bottom: 0.8em;
+    padding-bottom: 1em;
 }
 
 
