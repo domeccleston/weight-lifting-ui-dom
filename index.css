@@ -55,7 +55,7 @@ html {
     box-sizing: border-box;
 }
 
-/* NAVIGATION STYLING ---------------------------------------------------------------------------------------- */
+/* NAVIGATION STYLING -------------------------------------------------------------------------------------------------------------- */
 
 body, html {
     font-family: 'Source Sans Pro', sans-serif;
@@ -151,7 +151,7 @@ nav {
     font-weight: bold;
 }
 
-/* TOP PAGE MEDIA QUERIES ---------------------------------------------------------------------------------*/
+/* top page media queries  ------------------------------------------------------------------------------------------------------*/
 
 @media only screen and (max-width: 500px) {
     .bg {
@@ -172,32 +172,8 @@ nav {
 }
 
 
+/* MOBILE APP SECTION STYLING ----------------------------------------------------------------------------------------------------*/
 
-.btn-middle {
-    padding: 1em 5em 1em 5em;
-    width: 100%;
-    background: #ff5b7b;
-    border: none;
-    border-radius: 0.5em;
-    color: white;
-    font-size: 1rem;
-    font-weight: bold;
-}
-
-.mb-right * {
-    text-decoration: none;
-}
-
-.btn:focus {
-    outline: none;
-}
-
-
-.btn:hover {
-    background: #F3BE70 ;
-    color: #333333;
-    cursor: pointer;
-}
 
 .mobile-content {
     height: 100vh;
@@ -242,6 +218,31 @@ nav {
     flex-direction: column;
 }
 
+.btn-middle {
+    padding: 1em 5em 1em 5em;
+    width: 100%;
+    background: #ff5b7b;
+    border: none;
+    border-radius: 0.5em;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.mb-right * {
+    text-decoration: none;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn:hover {
+    background: #F3BE70 ;
+    color: #333333;
+    cursor: pointer;
+}
+
 .mb-right h4 {
     font-size: 2em;
 }
@@ -281,6 +282,8 @@ nav {
     border-color: #35373B;
 }
 
+/* mobile section media queries ------------------------------------------------------------------------------------------------------*/
+
 @media only screen and (max-width: 500px) {
 
     .mobile-content {
@@ -318,7 +321,7 @@ nav {
 
 }
 
-
+/* FEATURES SECTION -------------------------------------------------------------------------------------------------------------------*/
 
 .features-container {
     height: 100vh;
@@ -356,7 +359,7 @@ nav {
     text-align: center;
 } 
 
-
+/* features media queries ------------------------------------------------------------------------------------------------------------*/
 
 @media only screen and (max-width: 500px) {
 
@@ -404,6 +407,8 @@ nav {
     
 }
 
+/* QUOTE SECTION ---------------------------------------------------------------------------------------------------------------------*/
+
 .quote-container {  
     display: flex;
     flex-direction: column;
@@ -438,12 +443,6 @@ nav {
 
 .btn-bottom:focus {
     outline: none;
-}
-
-@media only screen and (max-width: 500px) {
-    .btn-bottom {
-        
-    }
 }
 
 
